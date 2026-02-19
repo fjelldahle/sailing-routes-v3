@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seilruter Hellas 2026</title>
+  <meta name="description" content="7 seilruter gjennom det greske øyriket. April-mai 2026. Utforsk, sammenlign og stem.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Screen 1: Entry -->
+  <div id="entry" class="screen active">
+    <div class="entry-container">
+      <div class="entry-eyebrow">EN SEILTUR I HELLAS</div>
+      <h1 class="entry-title">Hvor skal vi<br><em>seile?</em></h1>
+      <div class="entry-divider"></div>
+      <p class="entry-intro">7 ruter gjennom det greske øyriket. 14 dager. April&ndash;mai 2026. Utforsk rutene, se detaljene, og stem på din favoritt.</p>
+      <div class="name-field">
+        <label for="nameInput">HVEM ER DU?</label>
+        <input type="text" id="nameInput" placeholder="Fornavn" autocomplete="given-name" spellcheck="false" />
+      </div>
+      <button id="enterBtn" class="primary-btn" disabled>
+        <span>Se rutene</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="entry-footnote">18. april &ndash; 2. mai 2026</div>
+    </div>
+  </div>
+
+  <!-- Screen 2: Main App -->
+  <div id="app" class="screen">
+    <header class="top-bar">
+      <div class="top-bar-inner">
+        <div class="top-left">
+          <span class="top-title">SEILRUTER HELLAS 2026</span>
+          <span class="top-route-name" id="activeRouteName"></span>
+        </div>
+        <div class="top-right">
+          <span class="top-voter" id="voterLabel"></span>
+          <div class="top-tabs">
+            <button class="tab-btn active" data-tab="routes">Ruter</button>
+            <button class="tab-btn" data-tab="stops">Stopp</button>
+            <button class="tab-btn" data-tab="vote">Stem</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+
+        <!-- Routes Tab -->
+        <div class="tab-panel active" id="panel-routes">
+          <div id="routesList" class="routes-list"></div>
+          <div id="routeDetail" class="route-detail" style="display:none"></div>
+        </div>
+
+        <!-- Stops Tab -->
+        <div class="tab-panel" id="panel-stops">
+          <div class="stops-header">
+            <input type="text" id="stopsSearch" class="stops-search" placeholder="Søk i stopp..." />
+            <div class="region-filters" id="regionFilters"></div>
+          </div>
+          <div id="stopsGrid" class="stops-grid"></div>
+          <div id="stopDetail" class="stop-detail" style="display:none"></div>
+        </div>
+
+        <!-- Vote Tab -->
+        <div class="tab-panel" id="panel-vote">
+          <div class="vote-header">
+            <h2>Velg din favoritt</h2>
+            <p>Hvilken rute vil du seile?</p>
+          </div>
+          <div id="voteCards" class="vote-cards"></div>
+          <div id="voteResults" class="vote-results"></div>
+        </div>
+
+      </aside>
+
+      <!-- Map -->
+      <div class="map-container">
+        <div id="map"></div>
+        <div class="weather-widget" id="weatherWidget">
+          <span class="weather-item"><span class="weather-icon">🌡</span> 19&ndash;22&deg;C</span>
+          <span class="weather-item"><span class="weather-icon">🌊</span> 16&ndash;18&deg;C</span>
+          <span class="weather-item"><span class="weather-icon">💨</span> F3&ndash;4</span>
+          <span class="weather-item"><span class="weather-icon">☀</span> ~13t</span>
+        </div>
+        <div class="map-legend" id="mapLegend"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="routes-data.js"></script>
+  <script src="islands.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
