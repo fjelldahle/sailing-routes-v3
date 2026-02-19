@@ -16,36 +16,34 @@ export default async function handler(req, res) {
   }
 
   const sql = neon(process.env.DATABASE_URL);
-  const voterKey = name.trim().toLowerCase();
   const voterName = name.trim();
 
-  // Upsert vote
+  // Upsert vote (unique on name)
   await sql`
-    INSERT INTO votes (voter_name, voter_key, route, voted_at, updated_at)
-    VALUES (${voterName}, ${voterKey}, ${route}, NOW(), NOW())
-    ON CONFLICT (voter_key) DO UPDATE SET
-      route = ${route},
-      voter_name = ${voterName},
-      updated_at = NOW()
+    INSERT INTO votes (name, route_id, voted_at)
+    VALUES (${voterName}, ${route}, NOW())
+    ON CONFLICT (name) DO UPDATE SET
+      route_id = ${route},
+      voted_at = NOW()
   `;
 
   // Get tally + voters
   const tally = await sql`
-    SELECT route, COUNT(*)::int as count FROM votes GROUP BY route
+    SELECT route_id, COUNT(*)::int as count FROM votes GROUP BY route_id
   `;
   const allVotes = await sql`
-    SELECT voter_name, route FROM votes ORDER BY voted_at
+    SELECT name, route_id FROM votes ORDER BY voted_at
   `;
 
   const tallyMap = {};
   for (const row of tally) {
-    tallyMap[row.route] = row.count;
+    tallyMap[row.route_id] = row.count;
   }
 
   const voters = {};
   for (const v of allVotes) {
-    if (!voters[v.route]) voters[v.route] = [];
-    voters[v.route].push(v.voter_name);
+    if (!voters[v.route_id]) voters[v.route_id] = [];
+    voters[v.route_id].push(v.name);
   }
 
   return res.status(200).json({

@@ -6,36 +6,31 @@ export default async function handler(req, res) {
   }
 
   const sql = neon(process.env.DATABASE_URL);
-  const showDetails = req.query.key === 'hellas2026';
 
   // Get tally
   const tally = await sql`
-    SELECT route, COUNT(*)::int as count FROM votes GROUP BY route
+    SELECT route_id, COUNT(*)::int as count FROM votes GROUP BY route_id
   `;
 
   const tallyMap = {};
   for (const row of tally) {
-    tallyMap[row.route] = row.count;
+    tallyMap[row.route_id] = row.count;
   }
 
   // Get voters
   const allVotes = await sql`
-    SELECT voter_name, route FROM votes ORDER BY voted_at
+    SELECT name, route_id FROM votes ORDER BY voted_at
   `;
 
   const voters = {};
   for (const v of allVotes) {
-    if (!voters[v.route]) voters[v.route] = [];
-    voters[v.route].push(v.voter_name);
+    if (!voters[v.route_id]) voters[v.route_id] = [];
+    voters[v.route_id].push(v.name);
   }
 
-  const response = { tally: tallyMap, voters, total: allVotes.length };
-
-  if (showDetails) {
-    response.votes = Object.fromEntries(
-      allVotes.map(v => [v.voter_name.toLowerCase(), v.route])
-    );
-  }
-
-  return res.status(200).json(response);
+  return res.status(200).json({
+    tally: tallyMap,
+    voters,
+    total: allVotes.length,
+  });
 }
