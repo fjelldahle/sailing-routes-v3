@@ -226,13 +226,13 @@ window.ROUTES_DATA = [
     region: "Vestlege & sentrale Kykladane",
     color: "#3d5a8e",
     description: "Dei vestlege Kykladane byr paa nokre av Hellas' vakraste oeyar. Fraa dei rolige gruveoeyane Serifos og Sifnos til den dramatiske Milos med Kleftiko-grotene. Folegandros er den skjulte perla dei fleste aldri ser.",
-    distance: 266,
+    distance: 293,
     sailingDays: 12,
     restDays: 2,
     difficulty: "Middels",
     difficultyLevel: 2,
-    startPort: "Lavrion",
-    endPort: "Lavrion",
+    startPort: "Alimos Marina",
+    endPort: "Alimos Marina",
     bestFor: "Middels erfarne, fotografi, mat",
     heroImage: "Milos",
     weather: {
@@ -245,15 +245,15 @@ window.ROUTES_DATA = [
     stops: [
       {
         day: 0,
-        name: "Lavrion",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
+        name: "Alimos Marina",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
         nm: 0,
         hours: 0,
-        highlight: "Avgang fra soeroest-Attika",
+        highlight: "Avgang fr\u00e5 Athen",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       },
       {
         day: 1,
@@ -261,9 +261,9 @@ window.ROUTES_DATA = [
         port: "Korissia",
         lat: 37.6300,
         lng: 24.3220,
-        nm: 16,
-        hours: 2.9,
-        highlight: "Kea-loeva, hyggelig hamn, naer Athen men roleg",
+        nm: 35,
+        hours: 6.4,
+        highlight: "Kea-l\u00f8va, hyggelig hamn \u2014 f\u00f8rste seildag via Cape Sounion",
         isRest: false,
         image: "Kea"
       },
@@ -413,15 +413,15 @@ window.ROUTES_DATA = [
       },
       {
         day: 14,
-        name: "Lavrion (retur)",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
-        nm: 50,
-        hours: 9.1,
-        highlight: "Siste seildag tilbake, moglegheit for stopp ved Kea",
+        name: "Alimos Marina (retur)",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
+        nm: 58,
+        hours: 10.5,
+        highlight: "Siste seildag tilbake via Cape Sounion til Athen",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       }
     ]
   },
@@ -436,13 +436,13 @@ window.ROUTES_DATA = [
     region: "Vestlege, sentrale & austlege Kykladane",
     color: "#8e3d5a",
     description: "Den ultimate Kykladeruten som inkluderer baade dei ikoniske oeyane Santorini og Mykonos, og dei meir autentiske vestlege oeyane. Ein ambisioes rute med lengre etappar som krev erfaring med Meltemi-vinden.",
-    distance: 295,
+    distance: 322,
     sailingDays: 13,
     restDays: 1,
     difficulty: "Middels-Avansert",
     difficultyLevel: 3,
-    startPort: "Lavrion",
-    endPort: "Lavrion",
+    startPort: "Alimos Marina",
+    endPort: "Alimos Marina",
     bestFor: "Erfarne seglare, fotografi, heilskapeleg Kykladane-oppleving",
     heroImage: "Santorini",
     weather: {
@@ -455,15 +455,15 @@ window.ROUTES_DATA = [
     stops: [
       {
         day: 0,
-        name: "Lavrion",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
+        name: "Alimos Marina",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
         nm: 0,
         hours: 0,
-        highlight: "Avgang fra Lavrion, soeroest-Attika",
+        highlight: "Avgang fr\u00e5 Athen",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       },
       {
         day: 1,
@@ -471,9 +471,9 @@ window.ROUTES_DATA = [
         port: "Korissia",
         lat: 37.6300,
         lng: 24.3220,
-        nm: 16,
-        hours: 2.9,
-        highlight: "Foerste natt, avslappa overgang fraa fastlandet",
+        nm: 35,
+        hours: 6.4,
+        highlight: "F\u00f8rste natt, roleg overgang via Cape Sounion",
         isRest: false,
         image: "Kea"
       },
@@ -623,15 +623,15 @@ window.ROUTES_DATA = [
       },
       {
         day: 14,
-        name: "Lavrion (retur)",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
-        nm: 50,
-        hours: 9.1,
-        highlight: "Lang siste seildag nordvestover til Attika",
+        name: "Alimos Marina (retur)",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
+        nm: 58,
+        hours: 10.5,
+        highlight: "Lang siste seildag via Cape Sounion til Athen",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       }
     ]
   },
@@ -646,13 +646,13 @@ window.ROUTES_DATA = [
     region: "Sentrale & oestlege Kykladane",
     color: "#8e6e3d",
     description: "Opplev Kykladane slik dei var foer turismen tok over. Dei smaa oeyane soeroest for Naxos \u2014 Koufonisia, Schinoussa og Amorgos \u2014 byr paa Hellas' klaraste vatn, uberaerte strender og genuin gresk gjestfridom.",
-    distance: 286,
+    distance: 321,
     sailingDays: 12,
     restDays: 2,
     difficulty: "Middels",
     difficultyLevel: 2,
-    startPort: "Lavrion",
-    endPort: "Lavrion",
+    startPort: "Alimos Marina",
+    endPort: "Alimos Marina",
     bestFor: "Rolege oeyar, snorkling, autentisk Hellas",
     heroImage: "Amorgos",
     weather: {
@@ -665,15 +665,15 @@ window.ROUTES_DATA = [
     stops: [
       {
         day: 0,
-        name: "Lavrion",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
+        name: "Alimos Marina",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
         nm: 0,
         hours: 0,
-        highlight: "Avgang fra Lavrion",
+        highlight: "Avgang fr\u00e5 Athen",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       },
       {
         day: 1,
@@ -681,9 +681,9 @@ window.ROUTES_DATA = [
         port: "Korissia",
         lat: 37.6300,
         lng: 24.3220,
-        nm: 16,
-        hours: 2.9,
-        highlight: "Foerste stopp, roleg overgang",
+        nm: 35,
+        hours: 6.4,
+        highlight: "F\u00f8rste stopp via Cape Sounion, roleg overgang",
         isRest: false,
         image: "Kea"
       },
@@ -833,15 +833,15 @@ window.ROUTES_DATA = [
       },
       {
         day: 14,
-        name: "Lavrion (retur)",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
-        nm: 42,
-        hours: 7.6,
-        highlight: "Siste seildag heim via Kea-kanalen",
+        name: "Alimos Marina (retur)",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
+        nm: 60,
+        hours: 10.9,
+        highlight: "Lang siste seildag heim via Kea og Cape Sounion",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       }
     ]
   },
@@ -856,13 +856,13 @@ window.ROUTES_DATA = [
     region: "Nordlege Kykladane",
     color: "#5a3d8e",
     description: "Ei kortare rute fokusert paa dei nordlege Kykladane \u2014 Andros med sine vasstrav og vandrestigar, Tinos med det heilage valfartsmaaleet, og den heilage oey Delos der ingen bur. Perfekt for dei som vil ha kultur framfor strandliv.",
-    distance: 166,
+    distance: 204,
     sailingDays: 9,
     restDays: 2,
     difficulty: "Middels",
     difficultyLevel: 2,
-    startPort: "Lavrion",
-    endPort: "Lavrion",
+    startPort: "Alimos Marina",
+    endPort: "Alimos Marina",
     bestFor: "Kulturinteresserte, vandring, arkeologi, kortare tur",
     heroImage: "Delos",
     weather: {
@@ -875,15 +875,15 @@ window.ROUTES_DATA = [
     stops: [
       {
         day: 0,
-        name: "Lavrion",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
+        name: "Alimos Marina",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
         nm: 0,
         hours: 0,
-        highlight: "Avgang fra Lavrion",
+        highlight: "Avgang fr\u00e5 Athen",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       },
       {
         day: 1,
@@ -891,9 +891,9 @@ window.ROUTES_DATA = [
         port: "Korissia",
         lat: 37.6300,
         lng: 24.3220,
-        nm: 16,
-        hours: 2.9,
-        highlight: "Kea-loeva, vandring til Ioulida",
+        nm: 35,
+        hours: 6.4,
+        highlight: "Kea-l\u00f8va, vandring til Ioulida \u2014 f\u00f8rste seildag via Sounion",
         isRest: false,
         image: "Kea"
       },
@@ -1007,15 +1007,15 @@ window.ROUTES_DATA = [
       },
       {
         day: 11,
-        name: "Lavrion (retur)",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
-        nm: 5,
-        hours: 0.9,
-        highlight: "Kort siste etappe, levering av baat",
+        name: "Alimos Marina (retur)",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
+        nm: 24,
+        hours: 4.4,
+        highlight: "Siste etappe langs Attika-kysten til Athen",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       }
     ]
   },
@@ -1030,12 +1030,12 @@ window.ROUTES_DATA = [
     region: "Kykladane & Dodekanesene",
     color: "#8e3d8e",
     description: "Ein ambisioes evegsrute som tek deg fraa Athen gjennom Kykladane og vidare til Dodekanesene. Patmos, Lipsi, Kalymnos, Kos og Symi foer du naar Rhodos. Krev erfaring med open sjoe og lange etappar.",
-    distance: 270,
+    distance: 289,
     sailingDays: 12,
     restDays: 2,
     difficulty: "Avansert",
     difficultyLevel: 4,
-    startPort: "Lavrion",
+    startPort: "Alimos Marina",
     endPort: "Rhodes Marina",
     bestFor: "Erfarne seglare, eventyr, variert kultur",
     heroImage: "Symi",
@@ -1049,15 +1049,15 @@ window.ROUTES_DATA = [
     stops: [
       {
         day: 0,
-        name: "Lavrion",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
+        name: "Alimos Marina",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
         nm: 0,
         hours: 0,
-        highlight: "Avgang mot soeroest",
+        highlight: "Avgang fr\u00e5 Athen mot s\u00f8raust",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       },
       {
         day: 1,
@@ -1065,9 +1065,9 @@ window.ROUTES_DATA = [
         port: "Korissia",
         lat: 37.6300,
         lng: 24.3220,
-        nm: 16,
-        hours: 2.9,
-        highlight: "Foerste stopp, siste ro foer eventyret",
+        nm: 35,
+        hours: 6.4,
+        highlight: "F\u00f8rste stopp via Sounion, siste ro f\u00f8r eventyret",
         isRest: false,
         image: "Kea"
       },
@@ -1228,13 +1228,13 @@ window.ROUTES_DATA = [
     region: "Nordlege Egeiske hav",
     color: "#3d8e5a",
     description: "Sporadene er Hellas' gruene hemmelighet \u2014 furuklede oeyar med krystallklart vatn nord i Egeerhavet. Alonissos marinpark er Europas stoerste marine verneomraade. Skopelos er Mamma Mia-oey og Skiathos har dei beste strendene.",
-    distance: 304,
+    distance: 302,
     sailingDays: 10,
     restDays: 3,
     difficulty: "Middels",
     difficultyLevel: 2,
-    startPort: "Lavrion",
-    endPort: "Lavrion",
+    startPort: "Alimos Marina",
+    endPort: "Alimos Marina",
     bestFor: "Natur, dyreliv, snorkling, roleg tempo",
     heroImage: "Skopelos",
     weather: {
@@ -1247,15 +1247,15 @@ window.ROUTES_DATA = [
     stops: [
       {
         day: 0,
-        name: "Lavrion",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
+        name: "Alimos Marina",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
         nm: 0,
         hours: 0,
-        highlight: "Avgang nordover",
+        highlight: "Avgang fr\u00e5 Athen nordover",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       },
       {
         day: 1,
@@ -1263,9 +1263,9 @@ window.ROUTES_DATA = [
         port: "Sounion (ankring)",
         lat: 37.6500,
         lng: 24.0250,
-        nm: 5,
-        hours: 0.9,
-        highlight: "Poseidon-tempelet, ankring for natta",
+        nm: 24,
+        hours: 4.4,
+        highlight: "Poseidon-tempelet i solnedgang, ankring for natta",
         isRest: false,
         image: "Cape Sounion"
       },
@@ -1311,8 +1311,8 @@ window.ROUTES_DATA = [
         port: "Patitiri",
         lat: 39.1450,
         lng: 23.8600,
-        nm: 72,
-        hours: 13.1,
+        nm: 40,
+        hours: 7.3,
         highlight: "Port for Nasjonalparken, gamal bydel, dykking",
         isRest: false,
         image: "Alonissos"
@@ -1403,15 +1403,225 @@ window.ROUTES_DATA = [
       },
       {
         day: 13,
-        name: "Lavrion (retur)",
-        port: "Lavrion Marina",
-        lat: 37.7130,
-        lng: 24.0550,
+        name: "Alimos Marina (retur)",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
+        nm: 35,
+        hours: 6.4,
+        highlight: "Siste etappe heim via Sounion til Athen",
+        isRest: false,
+        image: "Alimos Marina"
+      }
+    ]
+  },
+
+  // ─────────────────────────────────────────────
+  // Route 8: Saronisk + Kykladene (Hybrid)
+  // ─────────────────────────────────────────────
+  {
+    id: "saronisk-kyklader",
+    name: "Saronisk + Kykladene",
+    tagline: "Det beste fr\u00e5 to verder \u2014 Saroniske bukta m\u00f8ter Kykladene",
+    region: "Saroniske bukta & vestlege Kykladane",
+    color: "#06b6d4",
+    description: "Ruten som nektar \u00e5 velje. Start med den beskytta Saroniske bukta \u2014 bilfrie Hydra, furukledde Poros \u2014 og kryss det opne havet til dei vestlege Kykladane. Utforsk vulkanlandskapet p\u00e5 Milos, matparadiset Sifnos og landsbyane p\u00e5 Paros f\u00f8r du tredar tilbake via Kea og Cape Sounion. To verder i \u00e9in tur.",
+    distance: 288,
+    sailingDays: 11,
+    restDays: 3,
+    difficulty: "Middels",
+    difficultyLevel: 2,
+    startPort: "Alimos Marina",
+    endPort: "Alimos Marina",
+    bestFor: "Variasjon, to regionar, allsidig oppleving",
+    heroImage: "Hydra",
+    weather: {
+      airDay: "19-25\u00b0C",
+      airNight: "13-17\u00b0C",
+      seaTemp: "17-21\u00b0C",
+      wind: "10-18kn (N-NW)",
+      description: "Saroniske bukta gir rolege forhold dei fyrste dagane. Kryssinga Hydra\u2013Kythnos (~44nm) er n\u00f8kkelpassasjen \u2014 planlegg tidleg avgang og sjekk v\u00earmeldinga. Seint i april gir typisk lette nordlege vindar (10-15 knop). Vestlege Kykladane er relativt beskytta."
+    },
+    stops: [
+      {
+        day: 0,
+        name: "Alimos Marina",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
+        nm: 0,
+        hours: 0,
+        highlight: "Avgang fr\u00e5 Athen",
+        isRest: false,
+        image: "Alimos Marina"
+      },
+      {
+        day: 1,
+        name: "Aegina",
+        port: "Aegina Town",
+        lat: 37.7470,
+        lng: 23.4270,
+        nm: 17,
+        hours: 3.1,
+        highlight: "Afaia-tempelet, pistasjehovudstaden i Hellas",
+        isRest: false,
+        image: "Aegina"
+      },
+      {
+        day: 2,
+        name: "Poros",
+        port: "Poros Town",
+        lat: 37.5040,
+        lng: 23.4570,
+        nm: 17,
+        hours: 3.1,
+        highlight: "Furukledde \u00f8y, ikonisk klokkert\u00e5rn, smal kanal",
+        isRest: false,
+        image: "Poros"
+      },
+      {
+        day: 3,
+        name: "Hydra",
+        port: "Hydra Town",
+        lat: 37.3490,
+        lng: 23.4620,
+        nm: 12,
+        hours: 2.2,
+        highlight: "Ingen bilar, ingen syklar \u2014 esel, galleri, kunstnarliv",
+        isRest: false,
+        image: "Hydra"
+      },
+      {
+        day: 4,
+        name: "Hydra (hviledag)",
+        port: "Hydra Town",
+        lat: 37.3490,
+        lng: 23.4620,
+        nm: 0,
+        hours: 0,
+        highlight: "Vlychos-stranda, klippevandring til Kamini, solnedgangsdrink",
+        isRest: true,
+        image: "Hydra"
+      },
+      {
+        day: 5,
+        name: "Kythnos (kryssinga!)",
+        port: "Loutra",
+        lat: 37.4470,
+        lng: 24.4200,
+        nm: 44,
+        hours: 8.0,
+        highlight: "DEN store kryssinga \u2014 ope hav fr\u00e5 Saroniske bukta til Kykladane! Varme kjelder i Loutra",
+        isRest: false,
+        image: "Kythnos"
+      },
+      {
+        day: 6,
+        name: "Serifos",
+        port: "Livadi",
+        lat: 37.1430,
+        lng: 24.4890,
+        nm: 20,
+        hours: 3.6,
+        highlight: "Dramatisk Chora p\u00e5 toppen, kvite terningshus, Livadi strand",
+        isRest: false,
+        image: "Serifos"
+      },
+      {
+        day: 7,
+        name: "Sifnos",
+        port: "Kamares",
+        lat: 36.9650,
+        lng: 24.7080,
+        nm: 15,
+        hours: 2.7,
+        highlight: "Mathovudstaden i Kykladane \u2014 matlagingskurs, 365 kyrkjer",
+        isRest: false,
+        image: "Sifnos"
+      },
+      {
+        day: 8,
+        name: "Milos",
+        port: "Adamas",
+        lat: 36.7200,
+        lng: 24.4450,
+        nm: 22,
+        hours: 4.0,
+        highlight: "Sarakiniko m\u00e5neoverflate, Kleftiko-grotene, Adamas hamn",
+        isRest: false,
+        image: "Milos"
+      },
+      {
+        day: 9,
+        name: "Milos (hviledag)",
+        port: "Adamas",
+        lat: 36.7200,
+        lng: 24.4450,
+        nm: 0,
+        hours: 0,
+        highlight: "Utforsk Kleftiko med jolle, katakombane, Plaka solnedgang",
+        isRest: true,
+        image: "Milos"
+      },
+      {
+        day: 10,
+        name: "Paros",
+        port: "Naoussa",
+        lat: 37.1230,
+        lng: 25.2360,
+        nm: 48,
+        hours: 8.7,
+        highlight: "Lang seildag austover \u2014 Naoussa fiskerlandsby, marmorgruvene",
+        isRest: false,
+        image: "Paros"
+      },
+      {
+        day: 11,
+        name: "Paros (hviledag)",
+        port: "Naoussa",
+        lat: 37.1230,
+        lng: 25.2360,
+        nm: 0,
+        hours: 0,
+        highlight: "Lefkes fjelllandsby, Golden Beach, dagstur til Antiparos",
+        isRest: true,
+        image: "Paros"
+      },
+      {
+        day: 12,
+        name: "Kea (Tzia)",
+        port: "Korissia",
+        lat: 37.6300,
+        lng: 24.3220,
+        nm: 55,
+        hours: 10.0,
+        highlight: "Lang returdag vestover \u2014 Kea-l\u00f8va, stille bukter, Ioulida",
+        isRest: false,
+        image: "Kea"
+      },
+      {
+        day: 13,
+        name: "Cape Sounion",
+        port: "Sounion (ankring)",
+        lat: 37.6500,
+        lng: 24.0250,
+        nm: 14,
+        hours: 2.5,
+        highlight: "Poseidon-tempelet i solnedgang \u2014 ankring under dei antikke s\u00f8ylene",
+        isRest: false,
+        image: "Cape Sounion"
+      },
+      {
+        day: 14,
+        name: "Alimos Marina (retur)",
+        port: "Alimos",
+        lat: 37.9100,
+        lng: 23.7050,
         nm: 24,
         hours: 4.4,
-        highlight: "Siste etappe heim, levering av baat",
+        highlight: "Siste seildag langs Attika-kysten tilbake til Athen",
         isRest: false,
-        image: "Lavrion"
+        image: "Alimos Marina"
       }
     ]
   }
