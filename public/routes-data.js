@@ -15,7 +15,7 @@ window.ROUTES_DATA = [
     tagline: "Den tryggeste introduksjonen til gresk seiling",
     region: "Saroniske bukta & Peloponnese",
     color: "#2d8a6e",
-    description: "Den perfekte ruten for de som seiler i Hellas for forste gang. Korte dagsetapper mellom historiske oyer med rolig sjoe og forutsigbar vind. Fra Athen soerover langs Peloponnese med stopp ved Hydra, Monemvasia og den vakre oeya Elafonisos.",
+    description: "Den perfekte ruten for de som seiler i Hellas for første gang. Korte dagsetapper mellom historiske oyer med rolig sjø og forutsigbar vind. Fra Athen sørover langs Peloponnese med stopp ved Hydra, Monemvasia og den vakre øya Elafonisos.",
     distance: 270,
     sailingDays: 12,
     restDays: 2,
@@ -65,7 +65,7 @@ window.ROUTES_DATA = [
         lng: 23.4570,
         nm: 17,
         hours: 3.1,
-        highlight: "Smal kanal mellom Poros og Peloponnese, klokkertaarn",
+        highlight: "Smal kanal mellom Poros og Peloponnese, klokketårn",
         isRest: false,
         image: "Poros"
       },
@@ -77,7 +77,7 @@ window.ROUTES_DATA = [
         lng: 23.4620,
         nm: 12,
         hours: 2.2,
-        highlight: "Bilfri oey, eselpakking, kunstgallerier",
+        highlight: "Bilfri øy, eselpakking, kunstgallerier",
         isRest: false,
         image: "Hydra"
       },
@@ -89,7 +89,7 @@ window.ROUTES_DATA = [
         lng: 23.4620,
         nm: 0,
         hours: 0,
-        highlight: "Utforsk Hydra til fots, svoemming i Vlychos-bukta",
+        highlight: "Utforsk Hydra til fots, svømming i Vlychos-bukta",
         isRest: true,
         image: "Hydra"
       },
@@ -101,7 +101,7 @@ window.ROUTES_DATA = [
         lng: 23.1550,
         nm: 18,
         hours: 3.3,
-        highlight: "Historisk sjoefartsmuseum, dufta av furu",
+        highlight: "Historisk sjøfartsmuseum, dufta av furu",
         isRest: false,
         image: "Spetses"
       },
@@ -113,7 +113,7 @@ window.ROUTES_DATA = [
         lng: 23.1500,
         nm: 5,
         hours: 0.9,
-        highlight: "Beskyttet bukt, fantastiske sjoemat-restaurantar",
+        highlight: "Beskyttet bukt, fantastiske sjømat-restaurantar",
         isRest: false,
         image: "Porto Heli"
       },
@@ -137,7 +137,7 @@ window.ROUTES_DATA = [
         lng: 23.0540,
         nm: 0,
         hours: 0,
-        highlight: "Utforsk festningsbyen, vinsmaking, solnedgang fraa murene",
+        highlight: "Utforsk festningsbyen, vinsmaking, solnedgang frå murene",
         isRest: true,
         image: "Monemvasia"
       },
@@ -161,7 +161,7 @@ window.ROUTES_DATA = [
         lng: 22.9850,
         nm: 14,
         hours: 2.5,
-        highlight: "Avsides oey, venetiansk borg, rolig atmosfaere",
+        highlight: "Avsides øy, venetiansk borg, rolig atmosfære",
         isRest: false,
         image: "Kythira"
       },
@@ -209,7 +209,7 @@ window.ROUTES_DATA = [
         lng: 23.7050,
         nm: 33,
         hours: 6.0,
-        highlight: "Tilbake til Athen, levering av baat",
+        highlight: "Tilbake til Athen, levering av båt",
         isRest: false,
         image: "Alimos Marina"
       }
@@ -225,7 +225,7 @@ window.ROUTES_DATA = [
     tagline: "Den ikoniske Kykladeruten med Milos, Folegandros og Ios",
     region: "Vestlege & sentrale Kykladane",
     color: "#3d5a8e",
-    description: "Dei vestlege Kykladane byr paa nokre av Hellas' vakraste oeyar. Fraa dei rolige gruveoeyane Serifos og Sifnos til den dramatiske Milos med Kleftiko-grotene. Folegandros er den skjulte perla dei fleste aldri ser.",
+    description: "Dei vestlege Kykladane byr på nokre av Hellas' vakraste øyar. Frå dei rolige gruveøyane Serifos og Sifnos til den dramatiske Milos med Kleftiko-grotene. Folegandros er den skjulte perla dei fleste aldri ser.",
     distance: 293,
     sailingDays: 12,
     restDays: 2,
@@ -275,7 +275,7 @@ window.ROUTES_DATA = [
         lng: 24.4200,
         nm: 13,
         hours: 2.4,
-        highlight: "Varme kjelder ved sjoen, avslappa atmosfaere",
+        highlight: "Varme kjelder ved sjøen, avslappa atmosfære",
         isRest: false,
         image: "Kythnos"
       },
@@ -287,7 +287,7 @@ window.ROUTES_DATA = [
         lng: 24.4890,
         nm: 20,
         hours: 3.6,
-        highlight: "Kvit Chora paa toppen, gammal gruveoey, fin strand",
+        highlight: "Kvit Chora på toppen, gammal gruveøy, fin strand",
         isRest: false,
         image: "Serifos"
       },
@@ -323,7 +323,7 @@ window.ROUTES_DATA = [
         lng: 24.4450,
         nm: 26,
         hours: 4.7,
-        highlight: "Vulkansk oey, Sarakiniko maaneroverflate, fargerike fiskarhus",
+        highlight: "Vulkansk øy, Sarakiniko måneoverflate, fargerike fiskarhus",
         isRest: false,
         image: "Milos"
       },
@@ -335,7 +335,7 @@ window.ROUTES_DATA = [
         lng: 24.3300,
         nm: 6,
         hours: 1.1,
-        highlight: "Sjoerovargrotene, snorkling i krystallklart vatn",
+        highlight: "Sjørøvargrotene, snorkling i krystallklart vatn",
         isRest: false,
         image: "Milos"
       },
@@ -359,7 +359,7 @@ window.ROUTES_DATA = [
         lng: 24.9100,
         nm: 0,
         hours: 0,
-        highlight: "Vandring til Panagia-kyrkja paa klippen, solnedgang fraa Chora",
+        highlight: "Vandring til Panagia-kyrkja på klippen, solnedgang frå Chora",
         isRest: true,
         image: "Folegandros"
       },
@@ -383,7 +383,7 @@ window.ROUTES_DATA = [
         lng: 25.2360,
         nm: 26,
         hours: 4.7,
-        highlight: "Fargerike fiskarbaat i hamna, gourmetrestaurantar",
+        highlight: "Fargerike fiskarbåt i hamna, gourmetrestaurantar",
         isRest: false,
         image: "Paros"
       },
@@ -395,7 +395,7 @@ window.ROUTES_DATA = [
         lng: 25.3760,
         nm: 9,
         hours: 1.6,
-        highlight: "Portara-tempelet, stoerste oey i Kykladane, groen innland",
+        highlight: "Portara-tempelet, største øy i Kykladane, grønt innland",
         isRest: false,
         image: "Naxos"
       },
@@ -435,7 +435,7 @@ window.ROUTES_DATA = [
     tagline: "Santorini, Mykonos og alt imellom",
     region: "Vestlege, sentrale & austlege Kykladane",
     color: "#8e3d5a",
-    description: "Den ultimate Kykladeruten som inkluderer baade dei ikoniske oeyane Santorini og Mykonos, og dei meir autentiske vestlege oeyane. Ein ambisioes rute med lengre etappar som krev erfaring med Meltemi-vinden.",
+    description: "Den ultimate Kykladeruten som inkluderer både dei ikoniske øyane Santorini og Mykonos, og dei meir autentiske vestlege øyane. Ein ambisiøs rute med lengre etappar som krev erfaring med Meltemi-vinden.",
     distance: 322,
     sailingDays: 13,
     restDays: 1,
@@ -497,7 +497,7 @@ window.ROUTES_DATA = [
         lng: 24.4890,
         nm: 20,
         hours: 3.6,
-        highlight: "Kvit Chora, roleg gruveoey, fin ankerplass",
+        highlight: "Kvit Chora, roleg gruveøy, fin ankerplass",
         isRest: false,
         image: "Serifos"
       },
@@ -557,7 +557,7 @@ window.ROUTES_DATA = [
         lng: 25.4300,
         nm: 0,
         hours: 0,
-        highlight: "Oia solnedgang, Fira, vinsmaking paa Santo Wines",
+        highlight: "Oia solnedgang, Fira, vinsmaking på Santo Wines",
         isRest: true,
         image: "Santorini"
       },
@@ -605,7 +605,7 @@ window.ROUTES_DATA = [
         lng: 25.3260,
         nm: 22,
         hours: 4.0,
-        highlight: "Vindmoellene, Little Venice, kosmopolitisk atmosfaere",
+        highlight: "Vindmøllene, Little Venice, kosmopolitisk atmosfære",
         isRest: false,
         image: "Mykonos"
       },
@@ -637,15 +637,15 @@ window.ROUTES_DATA = [
   },
 
   // ─────────────────────────────────────────────
-  // Route 4: Smaa Kykladene
+  // Route 4: Små Kykladene
   // ─────────────────────────────────────────────
   {
     id: "smaa-kykladene",
     name: "Sm\u00e5 Kykladene",
-    tagline: "Koufonisia, Schinoussa og Amorgos \u2014 dei hemmelege oeyane",
+    tagline: "Koufonisia, Schinoussa og Amorgos \u2014 dei hemmelege øyane",
     region: "Sentrale & oestlege Kykladane",
     color: "#8e6e3d",
-    description: "Opplev Kykladane slik dei var foer turismen tok over. Dei smaa oeyane soeroest for Naxos \u2014 Koufonisia, Schinoussa og Amorgos \u2014 byr paa Hellas' klaraste vatn, uberaerte strender og genuin gresk gjestfridom.",
+    description: "Opplev Kykladane slik dei var før turismen tok over. Dei smaa øyane søraust for Naxos \u2014 Koufonisia, Schinoussa og Amorgos \u2014 byr på Hellas' klaraste vatn, uberørte strender og genuin gresk gjestfridom.",
     distance: 321,
     sailingDays: 12,
     restDays: 2,
@@ -653,14 +653,14 @@ window.ROUTES_DATA = [
     difficultyLevel: 2,
     startPort: "Alimos Marina",
     endPort: "Alimos Marina",
-    bestFor: "Rolege oeyar, snorkling, autentisk Hellas",
+    bestFor: "Rolege øyar, snorkling, autentisk Hellas",
     heroImage: "Amorgos",
     weather: {
       airDay: "21-27\u00b0C",
       airNight: "15-19\u00b0C",
       seaTemp: "19-23\u00b0C",
       wind: "12-18kn (N-NE)",
-      description: "Moderate Meltemi-forhold i dei smaa Kykladane. Hamner kan vaere utsette, sjekk vermelding. Ankerplassar krev oppmerksamheit."
+      description: "Moderate Meltemi-forhold i dei smaa Kykladane. Hamner kan vere utsette, sjekk vermelding. Ankerplassar krev oppmerksamheit."
     },
     stops: [
       {
@@ -719,7 +719,7 @@ window.ROUTES_DATA = [
         lng: 25.3260,
         nm: 22,
         hours: 4.0,
-        highlight: "Vindmoellene, Little Venice",
+        highlight: "Vindmøllene, Little Venice",
         isRest: false,
         image: "Mykonos"
       },
@@ -731,7 +731,7 @@ window.ROUTES_DATA = [
         lng: 25.3760,
         nm: 24,
         hours: 4.4,
-        highlight: "Portara, base for dei smaa oeyane",
+        highlight: "Portara, base for dei smaa øyane",
         isRest: false,
         image: "Naxos"
       },
@@ -743,7 +743,7 @@ window.ROUTES_DATA = [
         lng: 25.5960,
         nm: 16,
         hours: 2.9,
-        highlight: "Turkis vatn, naturlege sjoepoolar, bilfri",
+        highlight: "Turkis vatn, naturlege sjøpoolar, bilfri",
         isRest: false,
         image: "Koufonisia"
       },
@@ -755,7 +755,7 @@ window.ROUTES_DATA = [
         lng: 25.5960,
         nm: 0,
         hours: 0,
-        highlight: "Pori-stranda, kajakktur rundt oeyane, sjoemat ved hamna",
+        highlight: "Pori-stranda, kajakktur rundt øyane, sjømat ved hamna",
         isRest: true,
         image: "Koufonisia"
       },
@@ -767,7 +767,7 @@ window.ROUTES_DATA = [
         lng: 25.5240,
         nm: 6,
         hours: 1.1,
-        highlight: "Minste busette oey, ekte gresk kvardagsliv",
+        highlight: "Minste busette øy, ekte gresk kvardagsliv",
         isRest: false,
         image: "Schinoussa"
       },
@@ -779,7 +779,7 @@ window.ROUTES_DATA = [
         lng: 25.8540,
         nm: 19,
         hours: 3.5,
-        highlight: "Hozoviotissa-klosteret i fjellveggen, Le Grand Bleu-oey",
+        highlight: "Hozoviotissa-klosteret i fjellveggen, Le Grand Bleu-øy",
         isRest: false,
         image: "Amorgos"
       },
@@ -815,7 +815,7 @@ window.ROUTES_DATA = [
         lng: 25.2360,
         nm: 26,
         hours: 4.7,
-        highlight: "Siste oeybesok, proviantering",
+        highlight: "Siste øybesøk, proviantering",
         isRest: false,
         image: "Paros"
       },
@@ -855,7 +855,7 @@ window.ROUTES_DATA = [
     tagline: "Andros, Tinos og Delos \u2014 kultur og historie",
     region: "Nordlege Kykladane",
     color: "#5a3d8e",
-    description: "Ei kortare rute fokusert paa dei nordlege Kykladane \u2014 Andros med sine vasstrav og vandrestigar, Tinos med det heilage valfartsmaaleet, og den heilage oey Delos der ingen bur. Perfekt for dei som vil ha kultur framfor strandliv.",
+    description: "Ei kortare rute fokusert på dei nordlege Kykladane \u2014 Andros med sine vassdragar og vandrestigar, Tinos med det heilage valfartsm\u00e5let, og den heilage øy Delos der ingen bur. Perfekt for dei som vil ha kultur framfor strandliv.",
     distance: 204,
     sailingDays: 9,
     restDays: 2,
@@ -870,7 +870,7 @@ window.ROUTES_DATA = [
       airNight: "13-17\u00b0C",
       seaTemp: "17-21\u00b0C",
       wind: "12-20kn (N Meltemi)",
-      description: "Kara Strait mellom Andros og Evia kan ha sterk Meltemi. Batsi og Panormos er godt beskytta. Tinos-kanalen kan vaere utfordrande."
+      description: "Kara Strait mellom Andros og Evia kan ha sterk Meltemi. Batsi og Panormos er godt beskytta. Tinos-kanalen kan vere utfordrande."
     },
     stops: [
       {
@@ -905,7 +905,7 @@ window.ROUTES_DATA = [
         lng: 24.7700,
         nm: 28,
         hours: 5.1,
-        highlight: "Beskytta vik paa vestsida, fargerik landsby",
+        highlight: "Beskytta vik på vestsida, fargerik landsby",
         isRest: false,
         image: "Andros"
       },
@@ -917,7 +917,7 @@ window.ROUTES_DATA = [
         lng: 24.7700,
         nm: 0,
         hours: 0,
-        highlight: "Vandring langs dei kjende Andros-stiane, vasstrav, Chora med museum",
+        highlight: "Vandring langs dei kjende Andros-stiane, vassdragar, Chora med museum",
         isRest: true,
         image: "Andros"
       },
@@ -942,7 +942,7 @@ window.ROUTES_DATA = [
         lng: 25.3260,
         nm: 20,
         hours: 3.6,
-        highlight: "Vindmoellene, Little Venice, shopping",
+        highlight: "Vindmøllene, Little Venice, shopping",
         isRest: false,
         image: "Mykonos"
       },
@@ -954,7 +954,7 @@ window.ROUTES_DATA = [
         lng: 25.2670,
         nm: 5,
         hours: 0.9,
-        highlight: "UNESCO-arkeologisk stad, Apollon sin heilage oey, overnatting forbode i land",
+        highlight: "UNESCO-arkeologisk stad, Apollon sin heilage øy, overnatting forbode i land",
         isRest: false,
         image: "Delos"
       },
@@ -1028,10 +1028,10 @@ window.ROUTES_DATA = [
   {
     id: "dodekanesene",
     name: "Dodekanesene",
-    tagline: "Evegsrute fra Athen til Rhodos gjennom austlege Hellas",
+    tagline: "Einvegsrute fra Athen til Rhodos gjennom austlege Hellas",
     region: "Kykladane & Dodekanesene",
     color: "#8e3d8e",
-    description: "Ein ambisioes evegsrute som tek deg fraa Athen gjennom Kykladane og vidare til Dodekanesene. Patmos, Lipsi, Kalymnos, Kos og Symi foer du naar Rhodos. Krev erfaring med open sjoe og lange etappar.",
+    description: "Ein ambisiøs einvegsrute som tek deg frå Athen gjennom Kykladane og vidare til Dodekanesene. Patmos, Lipsi, Kalymnos, Kos og Symi før du når Rhodos. Krev erfaring med open sjø og lange etappar.",
     distance: 289,
     sailingDays: 12,
     restDays: 2,
@@ -1046,7 +1046,7 @@ window.ROUTES_DATA = [
       airNight: "18-22\u00b0C",
       seaTemp: "21-25\u00b0C",
       wind: "15-25kn (N-NW Meltemi)",
-      description: "Sterk Meltemi i opne strekk mellom Kykladane og Dodekanesene. Lange open-sjoe-etappar krev planlegging. Varmare enn vestlege ruter."
+      description: "Sterk Meltemi i opne strekk mellom Kykladane og Dodekanesene. Lange open-sjø-etappar krev planlegging. Varmare enn vestlege ruter."
     },
     stops: [
       {
@@ -1093,7 +1093,7 @@ window.ROUTES_DATA = [
         lng: 25.3260,
         nm: 22,
         hours: 4.0,
-        highlight: "Siste Kyklad-oey foer Dodekanesene",
+        highlight: "Siste Kyklad-øy før Dodekanesene",
         isRest: false,
         image: "Mykonos"
       },
@@ -1105,7 +1105,7 @@ window.ROUTES_DATA = [
         lng: 26.5480,
         nm: 68,
         hours: 12.4,
-        highlight: "Johannes' openbarings-oey, UNESCO-klosteret, lang seildag",
+        highlight: "Johannes' openbarings-øy, UNESCO-klosteret, lang seildag",
         isRest: false,
         image: "Patmos"
       },
@@ -1129,7 +1129,7 @@ window.ROUTES_DATA = [
         lng: 26.7430,
         nm: 11,
         hours: 2.0,
-        highlight: "Miniatyroey med turkis bukter, avslappa tempo",
+        highlight: "Miniatyrøy med turkis bukter, avslappa tempo",
         isRest: false,
         image: "Lipsi"
       },
@@ -1141,7 +1141,7 @@ window.ROUTES_DATA = [
         lng: 26.8600,
         nm: 11,
         hours: 2.0,
-        highlight: "Art deco-arkitektur fraa Italia-tida, stor naturhamn",
+        highlight: "Art deco-arkitektur frå Italia-tida, stor naturhamn",
         isRest: false,
         image: "Leros"
       },
@@ -1153,7 +1153,7 @@ window.ROUTES_DATA = [
         lng: 26.9830,
         nm: 14,
         hours: 2.5,
-        highlight: "Svampdykkaroey, klatremekka, livleg hamn",
+        highlight: "Svampdykkarøy, klatremekka, livleg hamn",
         isRest: false,
         image: "Kalymnos"
       },
@@ -1226,10 +1226,10 @@ window.ROUTES_DATA = [
   {
     id: "sporadene",
     name: "Sporadene",
-    tagline: "Dei gruene oeyane \u2014 furu, klar sjoe og marinpark",
+    tagline: "Dei grøne øyane \u2014 furu, klar sjø og marinpark",
     region: "Nordlege Egeiske hav",
     color: "#3d8e5a",
-    description: "Sporadene er Hellas' gruene hemmelighet \u2014 furuklede oeyar med krystallklart vatn nord i Egeerhavet. Alonissos marinpark er Europas stoerste marine verneomraade. Skopelos er Mamma Mia-oey og Skiathos har dei beste strendene.",
+    description: "Sporadene er Hellas' grøne hemmelighet \u2014 furuklede øyar med krystallklart vatn nord i Egeerhavet. Alonissos marinpark er Europas største marine verneområde. Skopelos er Mamma Mia-øy og Skiathos har dei beste strendene.",
     distance: 302,
     sailingDays: 10,
     restDays: 3,
@@ -1274,7 +1274,7 @@ window.ROUTES_DATA = [
       },
       {
         day: 2,
-        name: "Evia Soer",
+        name: "Evia Sør",
         port: "Karystos",
         lat: 38.0100,
         lng: 24.2300,
@@ -1282,7 +1282,7 @@ window.ROUTES_DATA = [
         hours: 4.4,
         highlight: "Venetiansk borg, roleg kystby",
         isRest: false,
-        image: "Evia Soer"
+        image: "Evia Sør"
       },
       {
         day: 3,
@@ -1293,7 +1293,7 @@ window.ROUTES_DATA = [
         nm: 62,
         hours: 11.3,
         waypoints: [[38.05, 24.45], [38.13, 24.60], [38.40, 24.65], [38.65, 24.58]],
-        highlight: "Vill oey med Skyros-ponni, Rupert Brooke sitt gravsted",
+        highlight: "Vill øy med Skyros-ponni, Rupert Brooke sitt gravsted",
         isRest: false,
         image: "Skyros"
       },
@@ -1305,7 +1305,7 @@ window.ROUTES_DATA = [
         lng: 24.5600,
         nm: 0,
         hours: 0,
-        highlight: "Chora paa klippen, Skyros-ponniar, folkekunstmuseum",
+        highlight: "Chora på klippen, Skyros-ponniar, folkekunstmuseum",
         isRest: true,
         image: "Skyros"
       },
@@ -1329,7 +1329,7 @@ window.ROUTES_DATA = [
         lng: 23.8600,
         nm: 0,
         hours: 0,
-        highlight: "Europas stoerste marine verneomraade, munkesel, delfinar",
+        highlight: "Europas største marine verneområde, munkesel, delfinar",
         isRest: true,
         image: "Alonissos"
       },
@@ -1341,7 +1341,7 @@ window.ROUTES_DATA = [
         lng: 23.7270,
         nm: 9,
         hours: 1.6,
-        highlight: "Mamma Mia-oey, 360 kyrkjer, plommediaer",
+        highlight: "Mamma Mia-øy, 360 kyrkjer, plommedyrking",
         isRest: false,
         image: "Skopelos"
       },
@@ -1365,7 +1365,7 @@ window.ROUTES_DATA = [
         lng: 23.4900,
         nm: 0,
         hours: 0,
-        highlight: "Lalaria strand (baat), Kastro ruinar, vannsport",
+        highlight: "Lalaria strand (båt), Kastro ruinar, vannsport",
         isRest: true,
         image: "Skiathos"
       },
@@ -1389,22 +1389,22 @@ window.ROUTES_DATA = [
         lng: 24.1120,
         nm: 42,
         hours: 7.6,
-        highlight: "Roleg kystby paa Evia, proviantering",
+        highlight: "Roleg kystby på Evia, proviantering",
         isRest: false,
         image: "Kymi"
       },
       {
         day: 12,
-        name: "Evia Soer",
+        name: "Evia Sør",
         port: "Karystos",
         lat: 38.0100,
         lng: 24.2300,
         nm: 38,
         hours: 6.9,
         waypoints: [[38.50, 24.20], [38.30, 24.35], [38.15, 24.55], [38.13, 24.60], [38.05, 24.45]],
-        highlight: "Tilbake soerover langs Evias austkyst",
+        highlight: "Tilbake sørover langs Evias austkyst",
         isRest: false,
-        image: "Evia Soer"
+        image: "Evia Sør"
       },
       {
         day: 13,

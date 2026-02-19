@@ -389,7 +389,7 @@ window.ISLANDS_DATA = {
     lat: 37.159,
     lng: 24.510,
     tagline: "Dramatisk hilltop-chora og forlatte gruver — Kykladenes ville hjerte",
-    description: "Chora klamrer seg til toppen av en bratt ås som et ørnebol — en av Kykladenes mest spektakulære. Øya har gruvehistorie tilbake til bronsealderen. Livadi-bukta er en naturlig havn med god ankring og tav​ernaer langs vannet.",
+    description: "Chora klamrer seg til toppen av en bratt ås som et ørnebol — en av Kykladenes mest spektakulære. Øya har gruvehistorie tilbake til bronsealderen. Livadi-bukta er en naturlig havn med god ankring og tavernaer langs vannet.",
     highlights: [
       "Chora på klippen — en av Kykladenes mest fotogene landsbyer",
       "Forlatte jerngruver fra antikken til 1900-tallet — industriell arkeologi",
