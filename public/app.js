@@ -136,9 +136,10 @@
       zoomControl: true,
     });
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-      maxZoom: 18,
+      subdomains: 'abcd',
+      maxZoom: 19,
     }).addTo(map);
 
     const routes = window.ROUTES_DATA || [];
@@ -203,7 +204,7 @@
     // Zoom to route
     const layer = routeLayers[routeId];
     if (layer) {
-      map.fitBounds(layer.polyline.getBounds(), { padding: [40, 40] });
+      map.fitBounds(layer.polyline.getBounds(), { padding: [50, 50], maxZoom: 10, animate: true, duration: 0.6 });
     }
 
     // Update header
@@ -227,7 +228,7 @@
       layer.polyline.setStyle({ opacity: 0.7, weight: 3 });
       layer.markers.forEach(m => m.setOpacity(1));
     });
-    map.setView([37.5, 25.0], 7);
+    map.setView([37.5, 25.0], 7, { animate: true, duration: 0.6 });
     document.getElementById('activeRouteName').textContent = '';
   }
 
@@ -415,7 +416,7 @@
       row.addEventListener('click', () => {
         const stop = r.stops.find(s => slugify(s.name) === row.dataset.stopSlug);
         if (stop && map) {
-          map.setView([stop.lat, stop.lng], 12);
+          map.setView([stop.lat, stop.lng], 12, { animate: true, duration: 0.5 });
         }
       });
     });
@@ -528,7 +529,7 @@
 
     // Zoom map to island
     if (map && isl.lat && isl.lng) {
-      map.setView([isl.lat, isl.lng], 12);
+      map.setView([isl.lat, isl.lng], 12, { animate: true, duration: 0.5 });
     }
 
     const detail = document.getElementById('stopDetail');
