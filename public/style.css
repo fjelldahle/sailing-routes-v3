@@ -343,8 +343,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 60%;
-  background: linear-gradient(transparent, rgba(0,0,0,0.5));
+  height: 75%;
+  background: linear-gradient(transparent 10%, rgba(0,0,0,0.65));
 }
 
 .route-card-hero .route-card-label {
@@ -352,21 +352,24 @@ body {
   bottom: 0.75rem;
   left: 0.85rem;
   z-index: 1;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 
 .route-card-label .route-region {
-  font-size: 0.62rem;
-  font-weight: 500;
+  font-size: 0.65rem;
+  font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 }
 
 .route-card-label .route-name {
   font-family: var(--font-display);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: #fff;
   font-style: italic;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.5);
 }
 
 .route-card-body {
@@ -480,7 +483,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(transparent 40%, rgba(0,0,0,0.45));
+  background: linear-gradient(transparent 30%, rgba(0,0,0,0.6));
 }
 
 .detail-hero-text {
@@ -488,14 +491,16 @@ body {
   bottom: 0.85rem;
   left: 1rem;
   z-index: 1;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.5);
 }
 
 .detail-hero-text .detail-region {
-  font-size: 0.62rem;
-  font-weight: 500;
+  font-size: 0.65rem;
+  font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 }
 
 .detail-hero-text h2 {
@@ -1186,37 +1191,57 @@ body {
   bottom: 4.5rem;
   right: 1rem;
   z-index: 500;
-  background: rgba(255,255,255,0.92);
+  background: rgba(255,255,255,0.94);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  padding: 0.6rem 0.85rem;
+  padding: 0.4rem;
   border-radius: var(--radius);
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
   font-size: 0.72rem;
-  max-width: 180px;
+  max-width: 190px;
 }
 
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
-  padding: 0.2rem 0;
+  gap: 0.5rem;
+  padding: 0.35rem 0.55rem;
   cursor: pointer;
-  transition: opacity var(--transition);
+  border-radius: 6px;
+  transition: background var(--transition), transform var(--transition);
 }
 
-.legend-item:hover { opacity: 0.7; }
+.legend-item:hover {
+  background: rgba(0,0,0,0.06);
+  transform: translateX(1px);
+}
+
+.legend-item:active {
+  background: rgba(0,0,0,0.1);
+  transform: scale(0.98);
+}
 
 .legend-dot {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   flex-shrink: 0;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.8), 0 1px 3px rgba(0,0,0,0.15);
+  transition: transform var(--transition);
+}
+
+.legend-item:hover .legend-dot {
+  transform: scale(1.2);
 }
 
 .legend-name {
   color: var(--text-muted);
   font-weight: 500;
+  transition: color var(--transition);
+}
+
+.legend-item:hover .legend-name {
+  color: var(--text);
 }
 
 .legend-item.dimmed .legend-name {
